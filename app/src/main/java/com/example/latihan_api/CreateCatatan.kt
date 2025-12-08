@@ -44,7 +44,8 @@ class CreateCatatan : AppCompatActivity() {
             val payload = Catatan(
                 judul = judul,
                 isi = isi,
-                id = null
+                id = null,
+                user_id = 1
             )
 
             lifecycleScope.launch {
